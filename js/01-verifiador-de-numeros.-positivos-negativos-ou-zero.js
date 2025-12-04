@@ -1,4 +1,5 @@
-let numero = prompt("Digite um número")
+function atv01(){
+    let numero = prompt("Digite um número")
 console.log(numero)
 
 if (numero > 0) {
@@ -13,3 +14,5 @@ if (numero > 0) {
 }
 
 
+
+}

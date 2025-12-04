@@ -1,3 +1,4 @@
+function atv06(){
 let peso = Number(prompt("Digite seu peso por gentileza (kg):"));
 let altura = Number(prompt("Digite sua altura por gentileza (m):"));
 
@@ -16,5 +17,7 @@ if (imc < 18.5) {
 } else {
     console.log("Você está acima do peso")
     alert("Você está acima do peso")
+
+}
 
 }

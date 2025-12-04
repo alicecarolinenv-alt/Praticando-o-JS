@@ -1,4 +1,5 @@
-let numero1 = Number(prompt("Digite o primeiro número:"))
+function atv04(){
+    let numero1 = Number(prompt("Digite o primeiro número:"))
 let numero2 = Number(prompt("Digite o segundo número:"))
 
 if (numero1 > numero2) {
@@ -11,4 +12,5 @@ if (numero1 > numero2) {
 } else {
     console.log("O números são iguais")
     alert("O números são iguais")
+}
 }

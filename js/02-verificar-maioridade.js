@@ -1,4 +1,5 @@
-let idade = prompt("Digite sua idade");
+function atv02(){
+    let idade = prompt("Digite sua idade");
 console.log(idade)
 
 if (idade >= 18) {
@@ -8,4 +9,5 @@ if (idade >= 18) {
 if (idade < 18) {
     alert("Você é menor de idade, cai fora!")
     console.log("Você é menor de idade, cai fora!")
+}
 }

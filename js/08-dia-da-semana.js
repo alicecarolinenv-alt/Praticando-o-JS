@@ -1,4 +1,5 @@
-let numero = Number(prompt("Digite um número de 1 a 7"))
+function atv08(){
+    let numero = Number(prompt("Digite um número de 1 a 7"))
 
 switch (numero) {
     case 1:
@@ -28,4 +29,5 @@ switch (numero) {
     case 7:
         console.log("Sabádo");
         break;
+}
 }

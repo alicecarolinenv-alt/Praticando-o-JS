@@ -1,4 +1,5 @@
-let numero1 = Number(prompt("Digite o primeiro número"))
+function atv07() {
+    let numero1 = Number(prompt("Digite o primeiro número"))
 let numero2 = Number(prompt("Digite o segundo número"))
 let operacao = prompt("Digite a operação (+, -, *, /):")
 let resultado;
@@ -34,4 +35,5 @@ switch (operacao) {
     default:
         console.log("Operador inválido!")
         break;
+}
 }
